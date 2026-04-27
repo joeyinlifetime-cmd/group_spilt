@@ -1,0 +1,6 @@
+{
+  "name": "智能隨機分組工具",
+  "description": "一個簡約、高效的隨機分組小工具，支援按組數或按人數分組。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
