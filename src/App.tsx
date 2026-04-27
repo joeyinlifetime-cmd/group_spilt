@@ -139,7 +139,7 @@ export default function App() {
     if (extension === 'xlsx' || extension === 'xls') {
       reader.readAsBinaryString(file);
     } else {
-      reader.readAsText(file);
+      reader.readAsText(file, 'UTF-8');
     }
     
     // Reset file input
